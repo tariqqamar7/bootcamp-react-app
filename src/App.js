@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import About from './about.js'
 
 function App() {
   return (
     <div className="App">
-      <h2>Hello jee</h2>
+      <hr/>
+        <About quote="A Malik" />
+      <hr/>
     </div>
   );
 }
